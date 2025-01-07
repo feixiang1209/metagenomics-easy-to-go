@@ -1,7 +1,7 @@
-path=/path/to/data    #change to the real path of raw data
-host_genome_path=/path/to/host_genome/      #change to the real path of host genome (.fa or .fasta)
-emapper_path=/path/to/emapper_db   #change to the real path of eggnog-mapper database 
-mmseq_gtdb_db=path/to/mmseqs/gtdb/database  #change to the real path of mmseq gtdb database 
+path=/path/to/data    #change to the real path of raw data.
+host_genome_path=/path/to/host_genome/      #change to the real path of host genome (.fa or .fasta).
+emapper_path=/path/to/emapper_db   #change to the real path of eggnog-mapper database. 
+mmseq_gtdb_db=path/to/mmseqs/gtdb/database  #change to the real path of mmseq gtdb database. 
 
 
 ##Trim data and remove adaptor using fastp
