@@ -1,4 +1,4 @@
-#metagenomics-easy-to-go   METO
+METOG: metagenomics-easy-to-go
 
 
 
