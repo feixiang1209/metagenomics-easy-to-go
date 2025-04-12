@@ -17,8 +17,8 @@ fastp \
 -o $path/${name}_trimmed_R1.fastq.gz \
 -O $path/${name}_trimmed_R2.fastq.gz \
 --thread 10 \
--h $path//trimmed/${name}_report.html \
--j $path//trimmed/${name}_report.json
+-h $path/trimmed/${name}_report.html \
+-j $path/trimmed/${name}_report.json
 done
 
 ## Host removal using bowtie2
