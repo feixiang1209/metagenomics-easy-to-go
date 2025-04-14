@@ -45,7 +45,7 @@ mkdir -p $path/megahit_output
 cd $path/host_removed 
 for file in *1.fastq
 do
-megahit -1 $file -2 ${file%1.fastq}2.fastq -o ${file%_host_removed_1.fastq}_megahit_output -t 50
+megahit -1 $file -2 ${file%1.fastq}2.fastq -o $path/megahit_output/${file%_host_removed_1.fastq}_megahit_output -t 50
 done
 
 ##QC of contigs using quast
