@@ -151,7 +151,7 @@ for dir in *
 do
 mkdir -p $path/metawrap_binning/gtdbtk/$dir
 gtdbtk classify_wf --genome_dir $path/metawrap_binning/$dir/refinement_output/metawrap_70_10_bins  \
---out_dir $path/metawrap_binning/gtdbtk/$dir   --extension fa   --skip_ani_screen  -cpus 50
+--out_dir $path/metawrap_binning/gtdbtk/$dir   --extension fa   --skip_ani_screen  --cpus 50
 done
 
 
